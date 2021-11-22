@@ -170,6 +170,39 @@ body {
 
     }
 
+    .annuncioF {
+        display: flex;
+        flex-direction: column;
+        
+        margin: 1vw;
+        
+        align-items: center;
+        width: 23vw;
+
+        background-color:#304fb6;
+        box-shadow: 3px 3px 15px grey;
+
+        $border-radius: 10px;
+        border-radius: $border-radius;
+
+        blockquote {
+            padding: 3%;
+            text-align: center;
+            font-size: 1.3em;
+            color: #444444;
+            
+        }
+
+        blockquote:hover {
+            color: #491dc2 ;
+            font-size:bold;
+        }
+
+        transition: scale 0.5s;
+
+    }
+
+
     .annuncio:hover {
         scale: 1.05 1.05;
     }
